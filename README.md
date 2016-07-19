@@ -5,6 +5,7 @@
 title Sequence of next actions
 
 actor Developer
+
 participant LocalDevEnv
 
 Developer -> LocalDevEnv : setup
