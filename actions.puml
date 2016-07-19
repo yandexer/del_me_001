@@ -2,5 +2,9 @@
 title Sequence of next actions
 actor Developer
 participant LocalDevEnv
+participant GitHub project
 Developer -> LocalDevEnv : setup
+Developer -> LocalDevEnd : test
+LocalDevEnd --> Developer : tests passed
+Developer -> GitHub : submit code
 @enduml
